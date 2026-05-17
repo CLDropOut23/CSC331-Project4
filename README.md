@@ -26,6 +26,7 @@ a) if the program executes correctly or not
 After completing the Java Code, it seems to print out perfectly. With no issues it prints out the Sets, Accesses, Hits, Misses, and Miss Rate. 
 
 
+
 b) if yes, five screenshots showing the successful execution of your program,
 
 <img width="959" height="490" alt="image" src="https://github.com/user-attachments/assets/1be3812b-0a3a-4b3d-99c7-a0496a8acec9" />
@@ -40,6 +41,20 @@ b) if yes, five screenshots showing the successful execution of your program,
 <img width="959" height="518" alt="image" src="https://github.com/user-attachments/assets/6784d2f3-418b-4192-b7ee-ba96d37ea3b3" />
 
 
-
-
 c) anylaze how cache associativity affects cache miss rate under various memory access pattern. 
+
+Sequential Pattern: For the output of Sequential Pattern, the sequential access pattern had a miss rate of about 0.25 or 25% in direct-mapped. The block size is 16 bytes and each int/integer is 4 bytes, each block can have 4 integers. This means that each block had 1 miss and 3 accesses. The simulator made 16 misses and 48 hits out of 64 access. This shows a great spatial locality.
+
+Stride Pattern: For the output of Stride Pattern, it had a miss rate of 1.00 or 100%. Every access had went to a different block, all of the accesses which were 16, were misses. This shows that stride patterns reduce spatial locality and increase how many cache misses there are. 
+
+Working Set Pattern: For the output of Working Set Pattern, it had a really low miss rate of 0.0625 or 6.25%. The working set size worked perfectly with the cache, it let the data stay cached. It had 120 hits and only 8 misses. This shows that Working Set patterns have great temporal locality.
+
+Conflict Access Pattern: 
+
+Direct-Mapped Cache - 
+
+2-Way Cache -
+
+4-Way Cache- 
+
+
