@@ -2,12 +2,15 @@
 Build a set-associative cache simulator, study the traffic trace, and analyze the relationship between the miss rates, block size, cache size and associativity.
 
 Part 1: Simulator
+
 For this part, we implement a set-associative cache with parameters. We just needed to complete the LRU part in the given code. 
 
 Part 2: Memory Access Patterns
+
 We used 4 patterns: Sequential, Stride, Conflict, Working Set Patterns, using Byte Address
 
 Part 3: Experiment 
+
 We used these sizes of Caches and Blocks, as well as describe the Associatives: 
 
 Cache Size: 256 bytes
