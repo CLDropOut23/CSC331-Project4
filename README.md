@@ -51,10 +51,16 @@ Working Set Pattern: For the output of Working Set Pattern, it had a really low 
 
 Conflict Access Pattern: 
 
-Direct-Mapped Cache - 
+Direct-Mapped Cache - The output for the direct-mapped cache made a 1.000 or 100% miss rate. It had 128 misses and 0 hits. Since it was a direct-mapped cache it only allowed one block per set, each new access replaced the one before, this made it not have any hits. 
 
-2-Way Cache -
+2-Way Cache - The output for two-way associativity, the cache miss rate was 0.2500 or 25%, way less than the direct-mapped cache. It had 96 hits and 32 misses. 
 
-4-Way Cache- 
+4-Way Cache- The 4-way output had the same miss rate as the 2-way cache which is 25%. 
+
+In the end, with the Conflict Access, increasing associativity seems to lower the conlift misses.
+
+Final:
+
+With all the Set Patterns, it seems that high associativity helps the cache performance improve a whole lot.
 
 
