@@ -9,8 +9,11 @@ We used 4 patterns: Sequential, Stride, Conflict, Working Set Patterns, using By
 
 Part 3: Experiment 
 We used these sizes of Caches and Blocks, as well as describe the Associatives: 
+
 Cache Size: 256 bytes
-Block Sie: 16 bytes
+
+Block Size: 16 bytes
+
 Associatives: 1,2,4 (which means directly mapped, 2 Way Associativity, 4 way associativity)
 
 Project Outcome
