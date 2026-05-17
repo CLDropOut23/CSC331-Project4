@@ -16,6 +16,7 @@ Associatives: 1,2,4 (which means directly mapped, 2 Way Associativity, 4 way ass
 Project Outcome
 
 a) if the program executes correctly or not
+
 After completing the Java Code, it seems to print out perfectly. With no issues it prints out the Sets, Accesses, Hits, Misses, and Miss Rate. 
 
 
